@@ -1,0 +1,17 @@
+.root {
+  margin: 2rem 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: auto;
+  padding: .5rem 2rem;
+  border: 3px solid hsl(217deg 16% 45%);
+  border-radius: 5px;
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  cursor: pointer;
+}

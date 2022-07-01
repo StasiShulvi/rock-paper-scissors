@@ -1,0 +1,41 @@
+.root {
+  width: 22rem;
+  height: 22rem;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: 0 0 5px 5px #898989;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  background: center no-repeat url("./../../assets/icon-close.svg");
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  background: center no-repeat url("./../../assets/image-rules.svg");
+}
